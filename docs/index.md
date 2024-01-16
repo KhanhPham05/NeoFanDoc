@@ -1,1 +1,1 @@
-# This is the index page.
+# This is the home page

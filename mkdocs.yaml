@@ -1,0 +1,4 @@
+site_name: The NeoFanDoc
+site_url: https://khanhpham05.github.io/neofandoc
+nav:
+  - Home : index.md

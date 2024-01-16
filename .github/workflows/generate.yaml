@@ -1,0 +1,20 @@
+name: page-deploying
+run-name: Deploying code to page.
+on:
+  push:
+    branches:
+      - master
+jobs:
+  install:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.12.1'
+      - run: py --version
+      - run: pip --version
+      - run: pip install mkdocs
+      - run: mkdocs --version
+      - run: mkdocs gh-deploy
+      - run: mkdocs build

@@ -10,3 +10,7 @@ build:
 
 mkdocs:
   configuration: mkdocs.yaml
+
+python:
+  install:
+    - mkdocs-rtd-dropdown

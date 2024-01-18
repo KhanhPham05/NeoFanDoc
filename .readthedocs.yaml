@@ -9,7 +9,7 @@ build:
     python: "3.12"
   jobs:
     pre_build:
-      - pip install mkdocs-rtd-dropdown
+      - pip install mkdocs-material
 
 mkdocs:
   configuration: mkdocs.yaml

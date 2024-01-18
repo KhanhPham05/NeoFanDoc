@@ -6,4 +6,9 @@ theme:
 extra_css:
   - font_rules.css
 nav:
-  - Home : index.md
+  - Home: index.md
+  - Warming up:
+      - setup/starter.md
+      - Setup Java: setup/setup.md
+markdown_extensions:
+  - admonition

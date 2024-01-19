@@ -10,3 +10,4 @@ For convenience, this [link](https://www.jetbrains.com/idea/download) will direc
 2. Scroll down to see the download option for Community Edition and **click Download**. ![](idea_com.png)
 
 ## Recommended settings
+

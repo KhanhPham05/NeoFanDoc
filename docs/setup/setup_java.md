@@ -1,4 +1,4 @@
-# Setup Java
+# Setup JDK
 
 In order to start, we need to set a few things up. Firstly, we need a Java Development Kit.
 

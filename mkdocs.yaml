@@ -1,14 +1,15 @@
 site_name: The NeoFanDoc
 site_url: https://neofandoc.readthedocs.io/en/latest/
 theme:
-  name: rtd-dropdown
+  name: material
 extra_css:
   - font_rules.css
 nav:
   - Home: index.md
   - Warming up:
       - setup/starter.md
-      - Set up Java: setup/setup_java.md
+      - Set up JDK: setup/setup_java.md
       - Set up an IDE: setup/setup_idea.md
+      - Set up mod files: setup/setup_mdk.md
 markdown_extensions:
   - admonition

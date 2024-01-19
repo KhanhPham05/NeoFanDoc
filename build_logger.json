@@ -1,0 +1,29 @@
+{
+  "username": "RTD Build",
+  "content": "Build Started !",
+  "embeds": [
+    {
+      "_title": "Build {{ build.id }}",
+      "_url": "{{ build.url }}",
+      "color": 15258703,
+      "fields": [
+        {
+          "name": "*Project*",
+          "value": "{{ project.url }}"
+        },
+        {
+          "name": "*Version*",
+          "value": "{{ version.name }} ({{ build.commit }})"
+        },
+        {
+          "name": "*Build*",
+          "value": "{{ build.url }}"
+        },
+        {
+          "name": "*Commit*",
+          "value": "{{ build.commit }}"
+        }
+      ]
+    }
+  ]
+}

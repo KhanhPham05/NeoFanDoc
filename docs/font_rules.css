@@ -2,7 +2,7 @@ header {
     font-family: "JetBrains Mono SemiBold", monospace;
 }
 
-* {
+p, code, ul {
     font-family: 'Ubuntu Mono', monospace;
     font-size: medium;
 }

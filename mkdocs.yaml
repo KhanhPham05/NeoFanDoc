@@ -2,8 +2,22 @@ site_name: The NeoFanDoc
 site_url: https://neofandoc.readthedocs.io/en/latest/
 theme:
   name: material
+  features:
+    - content.action.vie
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/picture-in-picture-top-right-outline
+    admonition:
+      note: fontawesome/solid/note-sticky
 extra_css:
   - font_rules.css
+repo_url: https://github.com/KhanhPham05/NeoFanDoc
+repo_name: KhanhPham05 / NeoFanDoc
+edit_uri: edit/master/docs/
 nav:
   - Home: index.md
   - Warming up:
@@ -13,3 +27,12 @@ nav:
       - Set up mod files: setup/setup_mdk.md
 markdown_extensions:
   - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.superfences

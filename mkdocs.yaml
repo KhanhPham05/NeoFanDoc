@@ -13,18 +13,27 @@ theme:
     view: material/picture-in-picture-top-right-outline
     admonition:
       note: fontawesome/solid/note-sticky
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 extra_css:
   - font_rules.css
 repo_url: https://github.com/KhanhPham05/NeoFanDoc
 repo_name: KhanhPham05 / NeoFanDoc
 edit_uri: edit/master/docs/
-nav:
-  - Home: index.md
-  - Warming up:
-      - setup/a_starter.md
-      - Set up JDK: setup/b_setup_java.md
-      - Set up an IDE: setup/c_setup_idea.md
-      - Set up mod files: setup/d_setup_mdk.md
+
 markdown_extensions:
   - admonition
   - pymdownx.highlight:
@@ -36,3 +45,10 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Warming up:
+      - Set up the development environment: a_setup/a_starter.md
+      - Set up JDK: a_setup/b_setup_java.md
+      - Set up an IDE: a_setup/c_setup_idea.md
+      - Set up mod files: a_setup/d_setup_mdk.md

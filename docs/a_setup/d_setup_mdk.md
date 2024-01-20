@@ -21,7 +21,7 @@ You can directly download the template as a zip file by **click on `Code <>`** b
 ### Download via Git
 This step is a bit complicated as you need to install another software for GitHub called Git, [download here](https://git-scm.com/downloads). After that follow these steps :
 
-- Press on the **`Code <>`** button on the GitHub repository, so you can see your full GitHub repository link for cloning. ![](copy_link.png)
+- Press on the **`Code <>`** button on the GitHub repository, so you can see your full GitHub repository link for cloning. ![](img/copy_link.png)
 
 !!! note
     If you have repository created using the NeoForge's MDK template, you should just do that on your repository, otherwise doing that step directly from the template repository is okay. However, downloading the ZIP directly from the template repository is a better choice.

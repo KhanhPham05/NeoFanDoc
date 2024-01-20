@@ -21,10 +21,10 @@ edit_uri: edit/master/docs/
 nav:
   - Home: index.md
   - Warming up:
-      - setup/starter.md
-      - Set up JDK: setup/setup_java.md
-      - Set up an IDE: setup/setup_idea.md
-      - Set up mod files: setup/setup_mdk.md
+      - setup/a_starter.md
+      - Set up JDK: setup/b_setup_java.md
+      - Set up an IDE: setup/c_setup_idea.md
+      - Set up mod files: setup/d_setup_mdk.md
 markdown_extensions:
   - admonition
   - pymdownx.highlight:

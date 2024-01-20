@@ -35,4 +35,12 @@ This step is a bit complicated as you need to install another software for GitHu
 ``` commandline
 cd copied-path
 ```
-    
+
+### Download directly from IDE
+IntelliJ's project select screen has an option to download the files just like the mentioned GitHub section, but the IDE doesn't require any extra software.
+
+* Get/Copy the link from the GitHub repository, see the first step of the [previous section](#download-via-git).
+* Open IntelliJ IDEA and click on Get from VCS.
+* Make sure the `Version Control` section is set to "Git".
+* Copy the GitHub link to the URL field.
+* Click clone.

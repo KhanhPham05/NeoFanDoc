@@ -6,3 +6,9 @@ p, code, ul {
     font-family: 'Ubuntu Mono', monospace;
     font-size: medium;
 }
+
+:root {
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+}

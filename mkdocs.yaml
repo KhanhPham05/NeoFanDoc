@@ -53,4 +53,4 @@ nav:
       - Set up an IDE: a_setup/c_setup_idea.md
       - Set up mod files: a_setup/d_setup_mdk.md
   - Project configuring:
-      - Configuring with Gradle:
+      - Configuring with Gradle: b_configure_project/a_config_gradle.md

@@ -48,6 +48,19 @@ IntelliJ's project select screen has an option to download the files just like t
 ## Post-setup
 Before the final step, you should open the file `gradle.properties`, find the [`neo_version`](https://github.com/neoforged/MDK/blob/b54556b8ecf90694a09cd753b4e00460e6d3765f/gradle.properties#L19C1-L19C25) line and set the value to the latest version of NeoForge.
 
+As of January 21, 2024, the latest NeoForge version is for Minecraft 1.20.4 with version `20.4.124-beta`. Therefore, the 2 lines with respective values should be as follows:
+
+```properties title="gradle.properties"
+# The Minecraft version must agree with the Neo version to get a valid artifact
+minecraft_version=1.20.4
+
+# The Neo version must agree with the Minecraft version to get a valid artifact
+neo_version=20.4.124-beta
+```
+The `-beta` suffix indicate that the build is in beta version. However, for stable version, 
+    you should remove the suffix.
+
+
 !!! tip
     In order to see the latest NeoForge version, head up to the [NeoForge Project Listing](https://projects.neoforged.net/neoforged/neoforge)
     
@@ -59,7 +72,7 @@ Finally, it may take approximately 20~30 minutes to let IntelliJ doing its final
 It is a should to turn off as much redundant background task and let IntelliJ utilize as much resource of your PC in its possibility. However, this is only applied to the first load, you may open it later on without having to wait anymore.
 
 !!! note
-    If you are using an IDE different from IntelliJ, you need to open the terminal provided in your IDE and run
+    If you are using an IDE different from IntelliJ, you need to open the terminal provided in your IDE and run this line before progressing.
     ```
     ./gradlew postIdeRuns
     ```

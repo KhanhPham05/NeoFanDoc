@@ -52,6 +52,9 @@ nav:
       - Set up JDK: a_setup/b_setup_java.md
       - Set up an IDE: a_setup/c_setup_idea.md
       - Set up mod files: a_setup/d_setup_mdk.md
+  - The Basics :
+      - Registration:
+          - Overview: the_basics/registration/overview.md
   - Extras:
       - Project Configuring:
         - Configuring with Gradle: extra/config_gradle.md

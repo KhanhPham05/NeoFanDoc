@@ -1,10 +1,5 @@
-header {
-    font-family: "JetBrains Mono SemiBold", monospace;
-}
-
-p, code, ul {
+p, code, ul, h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: medium;
 }
 
 :root {
